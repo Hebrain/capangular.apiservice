@@ -1,0 +1,8 @@
+<div>
+  <form #form="ngForm" novalidate>
+    <button mat-raised-button type="submit" (click)="onSubmit()" color="primary" [disabled]="!form.form.valid">
+      Buscar
+    </button>
+  </form>
+</div>
+
